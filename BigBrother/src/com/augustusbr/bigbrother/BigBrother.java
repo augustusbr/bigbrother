@@ -6,7 +6,7 @@ public final class BigBrother {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println("LOL");
+		System.out.println("LOL2");
 	}
 
 }
