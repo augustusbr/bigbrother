@@ -75,5 +75,13 @@ public final class BigBrother {
             httpPost.releaseConnection();
         }
         */
+        
+        try {
+            PieChart demo = new PieChart("Comparison", "Which operating system are you using?");
+            demo.pack();
+            demo.setVisible(true);
+        } catch (Exception e) {
+        	e.printStackTrace();
+        }
     }
 }
